@@ -4,7 +4,7 @@
  * @author Kerri Shotts
  * @version 7.0.0
  * EDITED BY Jeremy Thompson
- * EDITED ON March 10, 2016
+ * EDITED ON March 15, 2016
  *
  * Copyright (c) 2013 Packt Publishing
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this
@@ -182,6 +182,13 @@ body.android {
 .android .noteListView .ui-list-item .note-representation.ui-glyph-film {
   background-color: #99CC00;
 }
+/*colors for the status icons*/
+.android .noteListView .ui-list-item .note-status.ui-glyph-archive {
+  background-color: #000;
+}
+.android .noteListView .ui-list-item .note-status.ui-glyph-followup {
+  background-color: #99CC00;
+}
 /* position and style the name of the note */
 
 .noteListView .ui-list-item .note-name {
@@ -201,12 +208,11 @@ body.android {
 /* position and style for the status */
 
 .noteListView .ui-list-item .note-status {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-  color: rgba(87, 52, 32, 0.5);
-  padding-bottom: 10px;
-  text-align: center;
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
 /* position and style the modified date */

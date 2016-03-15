@@ -4,6 +4,9 @@
  * yasmf.css
  * @author Kerri Shotts
  * @version 0.4
+ * EDITED BY Jeremy Thompson
+ * EDITED ON March 15, 2016
+ * added the archive and followup icons
  *
  * Copyright (c) 2013 Kerri Shotts, photoKandy Studios LLC
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this
@@ -1219,6 +1222,21 @@ div {
   -ms-mask-image: url("./yasmf-assets/menu@2x.png");
   -o-mask-image: url("./yasmf-assets/menu@2x.png");
   mask-image: url("./yasmf-assets/menu@2x.png"); }
+ 
+ /*Added icons for the followup and archive status*/ 
+.ui-glyph-archive {
+  -webkit-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -moz-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -ms-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -o-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  mask-image: url("./yasmf-assets/file-cabinet-transparent.png"); }
+  
+.ui-glyph-followup {
+  -webkit-mask-image: url("./yasmf-assets/pushpin.png");
+  -moz-mask-image: url("./yasmf-assets/pushpin.png");
+  -ms-mask-image: url("./yasmf-assets/pushpin.png");
+  -o-mask-image: url("./yasmf-assets/pushpin.png");
+  mask-image: url("./yasmf-assets/pushpin.png"); }
 
 /*****************************************************************************
  *
